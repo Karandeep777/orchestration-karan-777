@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "node-1777460252479",
+      "type": "agent",
+      "data": {
+        "label": "Ticket Escalation and Follow-up Agent Design",
+        "agentId": "b5fb8147-e828-46e6-acd8-dd1332999d42",
+        "agentName": "Ticket Escalation and Follow-up Agent Design",
+        "config": {}
+      },
+      "position": {
+        "x": -177.47218400922884,
+        "y": 121.12561672677657
+      }
+    },
+    {
+      "id": "node-1777460260882",
+      "type": "agent",
+      "data": {
+        "label": "Support Ticket Classifier and Router Agent Design",
+        "agentId": "a1e2e00b-941e-44f7-a3b9-bd91f7bfd652",
+        "agentName": "Support Ticket Classifier and Router Agent Design",
+        "config": {}
+      },
+      "position": {
+        "x": 330.77270595355617,
+        "y": 119.40580016348127
+      }
+    },
+    {
+      "id": "node-1777460269601",
+      "type": "agent",
+      "data": {
+        "label": "Support Ticket Classifier and Router Agent Design",
+        "agentId": "a1e2e00b-941e-44f7-a3b9-bd91f7bfd652",
+        "agentName": "Support Ticket Classifier and Router Agent Design",
+        "config": {}
+      },
+      "position": {
+        "x": 795.7021345283224,
+        "y": 124.04069076807968
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-1777460252479-node-1777460260882-1777460377062",
+      "source": "node-1777460252479",
+      "target": "node-1777460260882",
+      "sourceHandle": "left-source",
+      "targetHandle": "left-target",
+      "type": "straight",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "straight",
+        "sourceHandlePosition": "left",
+        "targetHandlePosition": "left"
+      }
+    },
+    {
+      "id": "edge-node-1777460260882-node-1777460269601-1777460397370",
+      "source": "node-1777460260882",
+      "target": "node-1777460269601",
+      "sourceHandle": "left-source",
+      "targetHandle": "left-target",
+      "type": "straight",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "straight",
+        "sourceHandlePosition": "left",
+        "targetHandlePosition": "left"
+      }
+    }
+  ],
+  "buildIds": [
+    "a1e2e00b-941e-44f7-a3b9-bd91f7bfd652",
+    "b5fb8147-e828-46e6-acd8-dd1332999d42"
+  ]
+}
